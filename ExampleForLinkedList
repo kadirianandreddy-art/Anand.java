@@ -1,0 +1,33 @@
+mport java.util.*;
+
+class Employee{
+	String name;
+	String department;
+	String email;
+     Employee(String name, String department, String email) {
+
+		this.name = name;
+		this.department = department;
+		this.email = email;
+		
+}
+
+
+
+public class ExampleForLinkedList {
+
+public static void main(String[] args) {
+	Employee e1=new Employee("Anand","Learner","anand@gmail.com");
+	Employee e2=new Employee("balu","Teacher","balu@gmail.com");
+	
+}
+	
+	List l=new LinkedList();
+	l.add("java");
+	l.add(10);
+	l.add(35.5);
+	l.add(23);
+	l.add("null");
+	System.out.println("The list:"+l);
+	}
+}
