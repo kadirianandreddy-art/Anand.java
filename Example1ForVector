@@ -1,0 +1,41 @@
+class Car{
+	String name;
+	int number;
+	String  color;
+public Car(String name, int number, String color) {
+	super();
+	this.name = name;
+	this.number = number;
+	this.color = color;
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public int getNumber() {
+	return number;
+}
+public void setNumber(int number) {
+	this.number = number;
+}
+public String getColor() {
+	return color;
+}
+public void setColor(String color) {
+	this.color = color;
+}
+}
+
+
+public class Example1ForVector {
+	public static void main(String[] args) {
+		Car c=new Car("Maruthi",1222,"Green");
+System.out.println(c.name);
+System.out.println(c.number);
+System.out.println(c.color);
+
+	}
+
+}
