@@ -1,0 +1,13 @@
+import java.util.*;
+public class ExampleForLinkedHashSet {
+public static void main(String[] args) {
+		LinkedHashSet lhs=new LinkedHashSet();
+		lhs.add("java");
+		lhs.add(10);
+		lhs.add(35.5);
+		lhs.add(23);
+		lhs.add("null");
+		System.out.println("The list:"+lhs);
+		}
+	}
+
